@@ -13,7 +13,7 @@ def main():
 
     # Define Robots Agent
     taker = Taker("Taker")
-    inserter = Inserter("Inserter")
+    inserter = Inserter("Inserter", instant_mail=True)
 
     # Configure admin and system initialization
     Admin().connect_to([taker, inserter], shelf)
