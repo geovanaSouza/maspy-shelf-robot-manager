@@ -17,4 +17,8 @@ def main():
 
     # Configure admin and system initialization
     Admin().connect_to([taker, inserter], shelf)
+
+    for agent in (taker, inserter):
+        agent.perceive("all")
+
     Admin().start_system()
