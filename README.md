@@ -11,6 +11,8 @@ make run
 
 To run against the MASPY `integration` branch:
 
+`integration` é a branch de integração do fork `geovanaSouza/MASPY`. Ela reúne correções de comportamento ainda não disponíveis na versão publicada no PyPI — issues [#24](https://github.com/laca-is/MASPY/issues/24), [#25](https://github.com/laca-is/MASPY/issues/25) e [#26](https://github.com/laca-is/MASPY/issues/26).
+
 ```bash
 make install-integration
 make run
